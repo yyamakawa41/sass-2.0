@@ -1,0 +1,77 @@
+
+$primaryDivTextColor: red;
+
+body{
+	color: $primaryDivTextColor;
+}
+
+#test-div{
+	$primaryDivTextColor: green;
+	color: $primaryDivTextColor;
+}
+
+$containerWidth: 100%;
+.homemade-col-1{
+	width: $containerWidth;
+}
+
+.homemade-col-2{
+	width: $containerWidth / 2;
+	float: left;
+}
+
+.homemade-col-4{
+	width: $containerWidth / 4;
+	float: left;
+}
+
+.random-size{
+	font-size: random(100) + px
+}
+
+.max-size{
+	font-size: max(23, 62,19, 44, 12, 51) + px;
+	color: darken($primaryDivTextColor, 20%)
+}
+
+.input{
+	border-radius: 10px;
+	color: red;
+	border: 2 px solid #0000ff;
+	padding: 10px 20px;
+	clear: both;
+}
+
+.second-input{
+	@extend .input;
+	color: #0000ff;
+}
+
+@mixin border-radius($radius){
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	-ms-border-radius: $radius;
+	border-radius: $radius;
+}
+
+.circle{
+	@include border-radius(10px);
+	border: 3px solid #ffff00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

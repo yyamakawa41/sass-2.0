@@ -1,0 +1,60 @@
+/* line 4, ../compass/sass/style.scss */
+body {
+  color: red;
+}
+
+/* line 8, ../compass/sass/style.scss */
+#test-div {
+  color: green;
+}
+
+/* line 14, ../compass/sass/style.scss */
+.homemade-col-1 {
+  width: 100%;
+}
+
+/* line 18, ../compass/sass/style.scss */
+.homemade-col-2 {
+  width: 50%;
+  float: left;
+}
+
+/* line 23, ../compass/sass/style.scss */
+.homemade-col-4 {
+  width: 25%;
+  float: left;
+}
+
+/* line 28, ../compass/sass/style.scss */
+.random-size {
+  font-size: 19px;
+}
+
+/* line 32, ../compass/sass/style.scss */
+.max-size {
+  font-size: 62px;
+  color: #990000;
+}
+
+/* line 37, ../compass/sass/style.scss */
+.input, .second-input {
+  border-radius: 10px;
+  color: red;
+  border: 2 px solid #0000ff;
+  padding: 10px 20px;
+  clear: both;
+}
+
+/* line 45, ../compass/sass/style.scss */
+.second-input {
+  color: #0000ff;
+}
+
+/* line 57, ../compass/sass/style.scss */
+.circle {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  border: 3px solid #ffff00;
+}
